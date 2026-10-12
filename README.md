@@ -1,1 +1,0 @@
-# posilovani-pro-zacatecniky
