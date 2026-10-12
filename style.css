@@ -206,3 +206,34 @@ img {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+
+/* VYLEPŠENÍ PRO MALÉ MOBILY */
+
+@media (max-width: 500px) {
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .nav {
+        gap: 10px;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+}
